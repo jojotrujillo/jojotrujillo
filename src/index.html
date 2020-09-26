@@ -3,11 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <title>Personal Portfolio</title>
+    <style>
+      #navbar {
+        position: fixed;
+        top: 0;
+      }
+      
+      #welcome-section {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+      }
+      
+      @media (max-width: 75em) {
+        html {
+          color: red;
+        }
+      }
+    </style>
   </head>
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
     <section id="welcome-section">
       <h1>Hey! I'm Jojo!</h1>
     </section>
+    <section id="projects">
+      <a href="https://www.theruntime.org/technical-documentation-page" target="_blank">
+        <p class="project-tile">Technical Documentation Page</p>
+      </a>
+    </section>
+    <a id="profile-link" href="https://github.com/jojotrujillo" target="_blank">GitHub</a>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
