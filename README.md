@@ -1,3 +1,5 @@
+![CD](https://github.com/jojotrujillo/jojotrujillo/workflows/CD/badge.svg)
+
 ### Hi there 👋
 
 <!--
