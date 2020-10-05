@@ -1,0 +1,17 @@
+#navbar {
+    position: fixed;
+    top: 0;
+  }
+  
+  #welcome-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  @media (max-width: 75em) {
+    html {
+      color: red;
+    }
+  }
+  
